@@ -1,0 +1,120 @@
+:root {
+    --PaleBlue: hsl(243, 100%, 93%);
+    --GrayishBlue: hsl(229, 7%, 55%);
+    --DarkBlue: hsl(228, 56%, 26%);
+    --VeryDarkBlue: hsl(229, 57%, 11%);
+}
+
+
+body {
+    background-image: url(images/bg-desktop.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fylo-box {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 75px;
+    padding: 30px 0 10px 30px;
+    /* padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px; */
+}
+
+.fylo-icons {
+    display: flex;
+    gap: 30px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+}
+
+.icon-div {
+    background-color: var(--VeryDarkBlue);
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+.fylo-bg {
+    background-color: var(--DarkBlue);
+}
+
+.bg-left-div {
+    margin-top: 70px;
+    background-color: var(--DarkBlue);
+    padding: 30px;
+    /* border-radius: 15px; */
+    color: white;
+    font-weight: 100;
+    position: relative;
+    width: 800px;
+
+}
+
+.eight-fifteen {
+    font-weight: 500;
+}
+
+.form-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: white;
+}
+
+.form-range {
+
+    width: 100%;
+    /* Full width */
+    height: 8px;
+    /* Track height */
+    border-radius: 5px;
+    /* Rounded corners */
+    background: var(--VeryDarkBlue);
+    /* Default track background */
+    outline: none;
+    /* Remove outline */
+    
+}
+
+.form-range::-webkit-slider-runnable-track {
+    background-image: linear-gradient(to right, rgba(209, 98, 64, 0), rgb(250, 37, 54));
+    /* Track background */
+    height: 8px;
+    /* Track height */
+    border-radius: 5px;
+    /* Rounded track */
+}
+
+.one-thousand-gb{
+    margin-left: 625px;
+}
+
+
+.speech-bubble{
+    position: absolute;
+    background-color: var(--PaleBlue);
+    padding: 30px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    top:450px;
+    right: 650px;
+    
+}
+
+.left{
+    margin-left:15px ;
+    font-size: 15px;
+    color: var(--GrayishBlue);
+}
